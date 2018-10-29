@@ -5,4 +5,4 @@
 * install virtual env with `python3 venv .venv`
 * activate venv `. activate`
 * `pip install -r requirements.txt`
-* run `python app.py`
+* run `FLASK_ENV=development python app.py`

@@ -1,1 +1,1 @@
-from .secrets import SENTRY_SDK_KEY
+APP_HOST='localhost'

@@ -1,2 +1,5 @@
-SENTRY_SDK_KEY = 'your_sdk_token'
-SENTRY_AUTH_TOKEN = 'your_auth_token'
+SENTRY_SDK_KEY = 'your_sentry_sdk_key'
+SENTRY_AUTH_TOKEN = 'your_sentry_auth_token'
+ORG_SLUG='your_org_slu'
+PROJECT_SLUG='your_project_slu'
+TEST_EVENT_CODE='your_test_event_cod'

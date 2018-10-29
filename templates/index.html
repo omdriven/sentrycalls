@@ -1,9 +1,17 @@
 <!doctype html>
 <html>
 <head>
+  <title>Sentry calls</title>
   <meta charset="utf-8">
+  <link rel="shortcut icon" href="/static/favicon.ico"/>
 </head>
 <body>
   <p>Response timestamp: {{timestamp}}</p>
+  <p>Response content:</p>
+  <p>{{data | safe}}</p>
+
+  <p>Use devtools javascript Console to explore response data.</p>
+
+  <script>console.log(JSON.parse('{{data | tojson}}'))</script>
 </body>
 </html>
