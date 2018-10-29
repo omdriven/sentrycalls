@@ -1,0 +1,4 @@
+node_modules
+.venv
+config/secrets.py
+__pycache__
